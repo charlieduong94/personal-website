@@ -1,0 +1,21 @@
+User-agent : *
+Disallow : /404.html
+Disallow : /js/
+Disallow : /css/
+Disallow : /less/
+Disallow : /img/
+Disallow : /fonts/
+Disallow : /font-awesome/
+Disallow : /downloadable/
+Disallow : /app/
+
+User-agent : Googlebot
+Disallow : /404.html
+Disallow : /js/
+Disallow : /css/
+Disallow : /less/
+Disallow : /img/
+Disallow : /fonts/
+Disallow : /font-awesome/
+Disallow : /downloadable/
+Disallow : /app/

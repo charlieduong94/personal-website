@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+lasso-page package-path='./browser.json'
+html lang="en"
+    head
+        meta charset="utf-8"
+        meta http-equiv="X-UA-Compatible" content="IE=edge"
+        meta name="viewport" content="width=device-width, initial-scale=1"
+        meta name="description" content=""
+        meta name="author" content=""
+        meta name="theme-color" content="#FFFFFF"
+        meta name="description" content="Charlie's Website"
+        link rel="shortcut icon" href="favicon.ico" type="image/x-icon"
+        title - Charlie Duong
+        lasso-head
+    body id="page-top"
+        nav id="mainNav" class="navbar navbar-default navbar-fixed-top cbp-af-header"
+            div class="container-fluid"
+                // Brand and toggle get grouped for better mobile display
+                div class="navbar-header"
+                    button [
+                            type="button"
+                            class="navbar-toggle collapsed"
+                            data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"
+                        ]
+                        span class="sr-only" - Toggle navigation
+                        span class="icon-bar"
+                        span class="icon-bar"
+                        span class="icon-bar"
+                    a class="navbar-brand page-scroll" href="#page-top"
+                        - <i class="fa fa-cog fa-spin"/> Charlie Duong
+                // Collect the nav links, forms, and other content for toggling
+                div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"
+                    ul class="nav navbar-nav navbar-right"
+                        li
+                            a class="page-scroll" href="#about" - About
+                        li
+                            a class="page-scroll" href="#services" - What I Do
+                        li
+                            a class="page-scroll" href="#portfolio" - Portfolio
+                        li
+                            a class="page-scroll" href="#contact" - Contact
+                // /.navbar-collapse
+            // /.container-fluid
+        header
+            video autoplay loop muted id="bgvid" poster="assets/img/poster.jpg"
+                source src="assets/videos/websiteVid.mp4" type="video/mp4"
+            div class="header-content col-lg-6 col-md-6 col-sm-6 col-xs-1"
+                div class="header-content-inner wow fadeIn"
+                    h1 - Charlie Duong
+                    hr
+                    p - Aspiring Software Engineer
+                    a href="#about" class="btn btn-primary btn-xl page-scroll" - Find Out More
+        section class="bg-primary" id="about" style="padding-top : 30px;"
+            div class="container"
+                div class="row"
+                    div class="col-lg-10 col-lg-offset-1 text-center"
+                        img class="bounceIn wow" src="assets/img/me2.jpg" style="border-radius : 50%"
+                        br
+                        br
+                        h2 class="section-heading" - A little bit about me...
+                        hr class="light"
+                        p class="text-faded"
+                            - I love soccer, cars, and code! Whenever I am not at work, I'm usually either trying to learn something new, working on a small project, trying to maintain a social life, or attempting to stay healthy.
+                        br
+                        a class="btn btn-xl btn-primary" href="assets/downloadable/Duong_Charlie.pdf"
+                            - Resume
+        section id="services"
+            div class="container"
+                div class="row"
+                    div class="col-lg-12 text-center"
+                        h2 class="section-heading" - My Tech Stack
+                        hr class="primary"
+            div class="container"
+                div class="row"
+                    div class="col-lg-4 col-md-6 text-center"
+                        div class="service-box"
+                            i class="fa fa-4x fa-server wow bounceIn scale-up text-primary"
+                            h3 - Server Side
+                            p class="text-muted"
+                                - Working Knowledge of Nodejs, Django, Java EE, MongoDB, and MySQL.
+                    div class="col-lg-4 col-md-6 text-center"
+                        div class="service-box"
+                            i [
+                                    class="fa fa-4x fa-newspaper-o wow bounceIn scale-up text-primary"
+                                    data-wow-delay=".2s"
+                                ]
+                            h3 - Frontend
+                            p class="text-muted"
+                                - Experience working with frontend frameworks such as Angular and React.
+                    div class="col-lg-4 col-md-6 text-center"
+                        div class="service-box"
+                            i [
+                                    class="fa fa-4x fa-paper-plane wow bounceIn scale-up text-primary"
+                                    data-wow-delay=".1s"
+                                ]
+                            h3 - Deployment
+                            p class="text-muted"
+                                - Experience deploying web applications on Amazon AWS EC2 Instances.
+                    div class="col-lg-6 col-md-6 text-center"
+                        div class="service-box"
+                            i [
+                                    class="fa fa-4x fa-pencil-square wow bounceIn scale-up text-primary"
+                                    data-wow-delay=".3s"
+                                ]
+                            h3 - Languages
+                            p class="text-muted"
+                                - C, C++, C#, Java, Python, JavaScript, TypeScript, CSS, SQl, and MIPS Assembly.
+                    div class="col-lg-6 col-md-6 text-center"
+                        div class="service-box"
+                            i [
+                                    class="fa fa-4x fa-heart wow bounceIn scale-up text-primary"
+                                    data-wow-delay=".3s"
+                                ]
+                            h3 - Other
+                            p class="text-muted"
+                                - Experience web scraping, developing applications on Embedded Systems, and more!
+        section class="no-padding" id="portfolio"
+            div class="text-center"
+                h2 - My Portfolio
+                hr
+                p - *Still under construction
+                br
+            div class="container-fluid"
+                div class="row no-gutter"
+                    div class="col-lg-4 col-sm-6 wow fadeInUp"
+                        a data-toggle="modal" data-target="#frTacticsModal" class="portfolio-box"
+                            img [
+                                    src="assets/img/portfolio/frtactics/poster.jpg"
+                                    class="img-responsive"
+                                    alt=""
+                                ]
+                            div class="portfolio-box-caption"
+                                div class="portfolio-box-caption-content"
+                                    div class="project-category text-faded" - Game Development
+                                    div class="project-name" - FR Tactics
+                    div class="col-lg-4 col-sm-6 wow fadeInUp"
+                        a data-toggle="modal" data-target="#nurikabeModal" class="portfolio-box"
+                            img [
+                                    src="assets/img/portfolio/nurikabe/poster.jpg"
+                                    class="img-responsive"
+                                    alt=""
+                                ]
+                            div class="portfolio-box-caption"
+                                div class="portfolio-box-caption-content"
+                                    div class="project-category text-faded" - Research
+                                    div class="project-name" - Nurikabe
+                    div class="col-lg-4 col-sm-6 wow fadeInUp"
+                        a data-toggle="modal" data-target="#angularWeatherModal" class="portfolio-box"
+                            img [
+                                    src="assets/img/portfolio/angular-weather/poster2.jpg"
+                                    class="img-responsive"
+                                    alt=""
+                                ]
+                            div class="portfolio-box-caption"
+                                div class="portfolio-box-caption-content"
+                                    div class="project-category text-faded" - Frontend Development
+                                    div class="project-name" - Angular Weather
+                    div class="col-lg-4 col-lg-offset-2 col-sm-6 wow fadeInUp"
+                        a data-toggle="modal" data-target="#webAppsModal" class="portfolio-box"
+                            img [
+                                    src="assets/img/portfolio/mangaReader/poster.jpg"
+                                    class="img-responsive"
+                                    alt=""
+                                ]
+                            div class="portfolio-box-caption"
+                                div class="portfolio-box-caption-content"
+                                    div class="project-category text-faded" - Mobile Development
+                                    div class="project-name" - Manga Reader
+                    div class="col-lg-4 col-sm-6 wow fadeInUp"
+                        a data-toggle="modal" data-target="#seniorDesignModal" class="portfolio-box"
+                            img src="assets/img/portfolio/4.jpg" class="img-responsive" alt=""
+                            div class="portfolio-box-caption"
+                                div class="portfolio-box-caption-content"
+                                    div class="project-category text-faded" - Full Stack
+                                    div class="project-name" - PureCloud Kiosk
+        <!--
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <h2>Free Download at Start Bootstrap!</h2>
+                    <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+                </div>
+            </div>
+        </aside>
+        -->
+        section id="contact"
+            div class="container"
+                div class="row"
+                    div class="col-lg-8 col-lg-offset-2 text-center"
+                        h2 class="section-heading" - Contact Me!
+                        hr
+                br
+                hr
+                div class="row"
+                    div class="col-sm-2 col-sm-offset-3 text-center"
+                        a href="https://www.facebook.com/charlie.duong.cd10"
+                            - <i class="fa fa-facebook-square fa-3x wow rotateIn scale-up"/>
+                        p - Facebook
+                    div class="col-sm-2  text-center"
+                        a href="http://twitter.com/duong_charlie"
+                            - <i class="fa fa-twitter-square fa-3x wow rotateIn scale-up"/>
+                        p - Twitter
+                    div class="col-sm-2 text-center"
+                        a href="https://www.linkedin.com/pub/charlie-duong/57/688/612"
+                            - <i class="fa fa-linkedin-square fa-3x wow rotateIn scale-up"/>
+                        p - LinkedIn
+                    div class="col-sm-2 col-sm-offset-3 text-center"
+                        a href="https://plus.google.com/106608832213796954213"
+                            - <i class="fa fa-google-plus-square fa-3x wow rotateIn scale-up"/>
+                        p - Google+
+                    div class="col-sm-2 col-sm-offset-2 text-center"
+                        a
+                            - <i class="fa fa-phone fa-3x wow rotateIn scale-up"/>
+                        p - (814) 431-9075
+        div id="footer" class="bg-primary text-center"
+            a class="btn btn-primary btn-xl page-scroll" href="#page-top" - Going up?
+            a class="btn btn-xl term-btn" data-toggle="modal" data-target="#termModal"
+                - <i class="fa fa-terminal fa-2x"/>
+        // Modals
+        div id="frTacticsModal" class="modal fade" role="dialog"
+            div class="modal-dialog"
+                // Modal content
+                div class="modal-content"
+                    div class="modal-header text-center"
+                        button type="button" class="close" data-dismiss="modal" - &times;
+                        h1 class="modal-title" - FR Tactics
+                        hr
+                    div class="modal-body text-center"
+                        div id="frTacticsCarousel" class="carousel slide" data-ride="carousel"
+                            ol class="carousel-indicators"
+                                li data-target="#myCarousel" data-slide-to="0" class="active"
+                                li data-target="#myCarousel" data-slide-to="1"
+                                li data-target="#myCarousel" data-slide-to="2"
+                                li data-target="#myCarousel" data-slide-to="3"
+                                li data-target="#myCarousel" data-slide-to="4"
+                            // Wrapper for slides
+                            div class="carousel-inner" role="listbox"
+                                div class="item active"
+                                    img src="assets/img/portfolio/frtactics/1.jpg" alt="frtactics 1"
+                                div class="item"
+                                    img src="assets/img/portfolio/frtactics/2.jpg" alt="frtactics 2"
+                                div class="item"
+                                    img src="assets/img/portfolio/frtactics/3.jpg" alt="frtactics 3"
+                                div class="item"
+                                    img src="assets/img/portfolio/frtactics/4.jpg" alt="frtactics 4"
+                                div class="item"
+                                    img src="assets/img/portfolio/frtactics/5.jpg" alt="frtactics 5"
+                            // Left and right controls
+                            a [
+                                    class="left carousel-control"
+                                    href="#frTacticsCarousel"
+                                    role="button"
+                                    data-slide="prev"
+                                ]
+                                span class="fa fa-chevron-left pointer-icon" aria-hidden="true"
+                                span class="sr-only" - Previous
+                            a [
+                                    class="right carousel-control"
+                                    href="#frTacticsCarousel"
+                                    role="button"
+                                    data-slide="next"
+                                ]
+                                span class="fa fa-chevron-right pointer-icon" aria-hidden="true"
+                                span class="sr-only" - Next
+                        br
+                        hr
+                        br
+                        // Content Description
+                        div
+                            p
+                                - This is one of the first team-based projects that I've worked on for one of my first Software Engineering classes. It was a pretty fun project to design and build.
+                            p
+                                - The entire project was done in Java and we pretty much made this from scratch using Swing Components. Terrible idea, I know, but we weren't allowed to use any real game engines to build it.
+                        div class="modal-footer"
+                            button type="button" class="btn btn-default" data-dismiss="modal" - Close
+        div id="nurikabeModal" class="modal fade" role="dialog"
+            div class="modal-dialog"
+                // Modal content
+                div class="modal-content"
+                    div class="modal-header text-center"
+                        button type="button" class="close" data-dismiss="modal" - &times;
+                        h1 class="modal-title" - Nurikabe
+                        hr
+                    div class="modal-body text-center"
+                        div id="nurikabeCarousel" class="carousel slide" data-ride="carousel"
+                            // Indicators
+                            ol class="carousel-indicators"
+                                li data-target="#myCarousel" data-slide-to="0" class="active"
+                                li data-target="#myCarousel" data-slide-to="1"
+                                li data-target="#myCarousel" data-slide-to="2"
+                                li data-target="#myCarousel" data-slide-to="3"
+                                li data-target="#myCarousel" data-slide-to="4"
+                            // Wrapper for slides
+                            div class="carousel-inner" role="listbox"
+                                div class="item active"
+                                    img src="assets/img/portfolio/nurikabe/1.jpg" alt="Nurikabe 1"
+                                div class="item"
+                                    img src="assets/img/portfolio/nurikabe/2.jpg" alt="Nurikabe 2"
+                                div class="item"
+                                    img src="assets/img/portfolio/nurikabe/3.jpg" alt="Nurikabe 3"
+                                div class="item"
+                                    img src="assets/img/portfolio/nurikabe/4.jpg" alt="Nurikabe 4"
+                                div class="item"
+                                    img src="assets/img/portfolio/nurikabe/5.jpg" alt="Nurikabe 5"
+                            // Left and right controls
+                            a [
+                                    class="left carousel-control"
+                                    href="#nurikabeCarousel"
+                                    role="button"
+                                    data-slide="prev"
+                                ]
+                                span class="fa fa-chevron-left pointer-icon" aria-hidden="true"
+                                span class="sr-only" - Previous
+                            a [
+                                    class="right carousel-control"
+                                    href="#nurikabeCarousel"
+                                    role="button"
+                                    data-slide="next"
+                                ]
+                                span class="fa fa-chevron-right pointer-icon" aria-hidden="true"
+                                span class="sr-only" - Next
+                        br
+                        hr
+                        br
+                        // Content Description
+                        div
+                            p
+                                - I've been trying to create an efficient Nurikabe puzzle solver for a while now. So far, I have it using breadth first traversal to find known values. It can solve some very simple puzzles and can get pretty close to solving more complex ones just from using known values.
+                            p
+                                - As of right now, it only solves what it knows for sure to be true. Pretty soon, I'm going to get it to make educated guesses and recursively backtrack whenever it hits a snag.
+                            p
+                                - The project was done in Java using Swing components (I started this project a while back).
+                    div class="modal-footer"
+                        button type="button" class="btn btn-default" data-dismiss="modal" - Close
+        div id="angularWeatherModal" class="modal fade" role="dialog"
+            div class="modal-dialog"
+                // Modal content
+                div class="modal-content"
+                    div class="modal-header text-center"
+                        button type="button" class="close" data-dismiss="modal" - &times;
+                        h1 class="modal-title" - Angular Weather
+                        hr
+                    div class="modal-body text-center"
+                        div id="angularWeatherCarousel" class="carousel slide" data-ride="carousel"
+                            // Indicators
+                            ol class="carousel-indicators"
+                                li data-target="#myCarousel" data-slide-to="0" class="active"
+                                li data-target="#myCarousel" data-slide-to="1"
+                            // Wrapper for slides
+                            div class="carousel-inner" role="listbox"
+                                div class="item active"
+                                    img src="assets/img/portfolio/angular-weather/1.jpg" alt="Angular Weather 1"
+                                div class="item"
+                                    img src="assets/img/portfolio/angular-weather/2.jpg" alt="Angular Weather 2"
+                            // Left and right controls
+                            a [
+                                    class="left carousel-control"
+                                    href="#angularWeatherCarousel"
+                                    role="button"
+                                    data-slide="prev"
+                                ]
+                                span class="fa fa-chevron-left pointer-icon" aria-hidden="true"
+                                span class="sr-only" - Previous
+                            a [
+                                    class="right carousel-control"
+                                    href="#angularWeatherCarousel"
+                                    role="button"
+                                    data-slide="next"
+                                ]
+                                span class="fa fa-chevron-right pointer-icon" aria-hidden="true"
+                                span class="sr-only" - Next
+                        br
+                        hr
+                        br
+                        // Content Description
+                        div
+                            p
+                                - This is a simple Chrome Extension for getting quick and accurate weather forecasts. I used this project as an excuse to play with Angular.
+                            p
+                                ---
+                                I used
+                                <a>Forecast.io</a>
+                                to retrieve the weather data and used
+                                <a>OpenLayers 3</a>
+                                with
+                                <a>OpenWeatherMap</a>
+                                for the weather tiling.
+                                ---
+                            p
+                                - You can checkout the code
+                                a href="https://github.com/charlieduong94/angular-weather" - here
+                    div class="modal-footer"
+                        button type="button" class="btn btn-default" data-dismiss="modal" - Close
+        div id="webAppsModal" class="modal fade" role="dialog"
+            div class="modal-dialog"
+                // Modal content
+                div class="modal-content"
+                    div class="modal-header text-center"
+                        button type="button" class="close" data-dismiss="modal" - &times;
+                        h1 class="modal-title" - Manga Reader
+                        hr
+                    div class="modal-body text-center"
+                        div id="webAppsCarousel" class="carousel slide" data-ride="carousel"
+                            // Indicators
+                            ol class="carousel-indicators"
+                                li data-target="#myCarousel" data-slide-to="0" class="active"
+                                li data-target="#myCarousel" data-slide-to="1"
+                            // Wrapper for slides
+                            div class="carousel-inner" role="listbox"
+                                div class="item active"
+                                    img src="assets/img/portfolio/mangaReader/1.png" alt="Manga Reader 1"
+                                div class="item"
+                                    img src="assets/img/portfolio/mangaReader/2.png" alt="Manga Reader 2"
+                                div class="item"
+                                    img src="assets/img/portfolio/mangaReader/3.png" alt="Manga Reader 3"
+                                div class="item"
+                                    img src="assets/img/portfolio/mangaReader/4.png" alt="Manga Reader 4"
+                            // Left and right controls
+                            a [
+                                    class="left carousel-control"
+                                    href="#webAppsCarousel"
+                                    role="button"
+                                    data-slide="prev"
+                                ]
+                                span class="fa fa-chevron-left pointer-icon" aria-hidden="true"
+                                span class="sr-only" - Previous
+                            a [
+                                    class="right carousel-control"
+                                    href="#webAppsCarousel"
+                                    role="button"
+                                    data-slide="next"
+                                ]
+                                span class="fa fa-chevron-right pointer-icon" aria-hidden="true"
+                                span class="sr-only" - Next
+                        br
+                        hr
+                        br
+                        // Content Description
+                        div
+                            p
+                                - This a mobile application that I've built to learn how to a few different mobile development frameworks. The application was originally built using
+                                a href="http://ionicframework.com/" - Ionic
+                                ---
+                                with the help of a few Cordova wrappers.
+                                               Source code for it can be found
+                                ---
+                                a href="https://github.com/charlieduong94/ionic-manga-reader" - here
+                            p
+                                ---
+                                I've recently started remaking the application using
+                                <a href="https://facebook.github.io/react-native/">React Native</a>
+                                because of the better performance that it offers. The newer project can be found
+                                <a href="https://github.com/charlieduong94/react-native-manga-app">here</a>.
+                                ---
+                            p
+                                ---
+                                Data is retrieved from
+                                <a href="http://mangaeden.com">MangaEden</a>.
+                                ---
+                    div class="modal-footer"
+                        button type="button" class="btn btn-default" data-dismiss="modal" - Close
+        div id="seniorDesignModal" class="modal fade" role="dialog"
+            div class="modal-dialog"
+                // Modal content
+                div class="modal-content"
+                    div class="modal-header text-center"
+                        button type="button" class="close" data-dismiss="modal" - &times;
+                        h1 class="modal-title" - PureCloud Kiosk
+                        hr
+                    div class="modal-body text-center"
+                        // Content Description
+                        div
+                            p
+                                ---
+                                For our Senior Design project, my team is working on a kiosk service that allows members of an organization to manage events. Users can check into an event by scanning a bar code at a kiosk and the system will record check-in. The data can then be used and analyzed to give the event organizers
+                                                details on the attendence rates and the times that users have checked in.
+                                ---
+                            p
+                                ---
+                                The project sponsored by
+                                <a href="http://inin.com">Interactive Intelligence</a>, is being developed using the company's PureCloud Platform.
+                                ---
+                            p
+                                ---
+                                The project is open source and can be found
+                                <a href="https://github.com/purecloud-kiosk">here</a>.
+                                ---
+                    div class="modal-footer"
+                        button type="button" class="btn btn-default" data-dismiss="modal" - Close
+        browser-refresh enabled='true'
+        lasso-body
